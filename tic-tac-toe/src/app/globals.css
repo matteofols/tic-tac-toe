@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 30px;
+}
+
+.square {
+  background: white;
+  border: 1px solid grey;
+  float: left;
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 64px;
+  height: 64px;
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+  width: 64px;
+}
+
+.board-row{
+  display: flex;
+}
+
+.restart{
+  background-color: red;
+  color: white;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+}
